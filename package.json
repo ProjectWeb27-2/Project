@@ -2,7 +2,7 @@
   "name": "webproject",
   "version": "1.0.0",
   "description": "",
-  "source": "./src/index.html",
+  "source": "./docs/index.html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build"
