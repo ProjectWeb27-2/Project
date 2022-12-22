@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// vvvvvvvvvv Свои изменения в CSS части Bootstrap vvvvvvvvvv
+@import "sass/variables";
+
+// ^^^^^^^^^^ Свои изменения в CSS части Bootstrap ^^^^^^^^^^
+
+@import "../node_modules/bootstrap/scss/bootstrap";

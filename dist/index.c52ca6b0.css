@@ -1,0 +1,81 @@
+:root {
+  --bs-primary: tomato;
+  --bs-body-font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar-nav {
+  letter-spacing: .06em;
+  font-family: Ubuntu, sans-serif;
+  font-size: 12px;
+  line-height: 10px;
+}
+
+.dropdown-menu {
+  background-color: tomato !important;
+  border-radius: 0 !important;
+}
+
+.dropdown-item {
+  letter-spacing: .06em;
+  font-size: 12px;
+  line-height: 10px;
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #d13018 !important;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item:after {
+  width: 0%;
+  content: "";
+  height: 4px;
+  background-color: tomato;
+  position: absolute;
+  bottom: 0;
+}
+
+.navbar .navbar-nav .nav-item:hover:after {
+  width: 100%;
+}
+
+.p-comment {
+  margin-bottom: 2px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.imgcup {
+  width: 59px !important;
+  height: 58px !important;
+}
+
+.tariff-btn {
+  text-decoration-color: azure !important;
+}
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(30%);
+  position: absolute;
+  top: 0;
+}
+
+.video-wrapper .container {
+  z-index: 2;
+  position: relative;
+}
+
+/*# sourceMappingURL=index.c52ca6b0.css.map */
