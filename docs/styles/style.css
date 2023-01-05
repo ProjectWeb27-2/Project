@@ -1,6 +1,5 @@
 :root {
     --bs-body-font-family: 'Montserrat', sans-serif !important;
-    --bs-primary: tomato;
 }
 
 .navbar-nav {
@@ -76,4 +75,37 @@
 .video-wrapper .container {
     z-index: 2;
     position: relative;
+}
+
+.p-f-description {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+.p-checkbox {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.page-num {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.page-com1 {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.carousel-control-next {
+    right: 36px !important;
+}
+
+.carousel-control-prev {
+    left: 968px !important;
 }
