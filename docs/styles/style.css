@@ -109,3 +109,22 @@
 .carousel-control-prev {
     left: 968px !important;
 }
+
+.requestComBox {
+    width: auto;
+    text-align: justify;
+}
+
+.agreementBox {
+    width: 400px;
+}
+
+@media (min-width: 992px) {
+    .requestComBox {
+        width: 460px;
+    }
+
+    .agreementBox {
+        width: 460px;
+    }
+}
