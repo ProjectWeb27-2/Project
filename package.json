@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ProjectWeb27-2/Project#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "bootstrap-borders-utilities": "^1.0.2"
   }
 }

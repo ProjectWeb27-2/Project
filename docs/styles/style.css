@@ -103,11 +103,13 @@
 }
 
 .carousel-control-next {
-    right: 36px !important;
+    right: 25% !important;
+    top: 97% !important;
 }
 
 .carousel-control-prev {
-    left: 968px !important;
+    left: 25% !important;
+    top: 97% !important;
 }
 
 .requestComBox {
@@ -120,11 +122,50 @@
 }
 
 @media (min-width: 992px) {
+    .carousel-control-next {
+        right: 8% !important;
+        top: 0 !important;
+    }
+    
+    .carousel-control-prev {
+        left: 74% !important;
+        top: 0 !important;
+    }
+
+    .review-card {
+        height: 758px;
+    }
+
+    .ghost-line {
+        visibility: hidden;
+    }
+
+    .review-content {
+        height: 663px;
+    }
+
     .requestComBox {
         width: 460px;
     }
 
     .agreementBox {
         width: 460px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-control-next {
+        right: 6% !important;
+        top: 0 !important;
+    }
+    
+    .review-content {
+        height: 711px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .review-content {
+        height: 615px;
     }
 }
