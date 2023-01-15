@@ -264,11 +264,10 @@
     border-radius: 10px;
     box-shadow: 20px 10px 50px rgb(5 12 51 / 5%);
     margin-left: -12px;
-    margin-right: -12px;
     padding: 20px 5px 22px;
     min-height: 280px;
     position: relative;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 .support-number{
     font-weight: bold;
