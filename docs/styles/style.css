@@ -2,15 +2,35 @@
     --bs-body-font-family: 'Montserrat', sans-serif !important;
 }
 
+.navbar {
+    background-color: black;
+}
+
 .navbar-nav {
+    background-color: black;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
     line-height: 10px;
     letter-spacing: 0.06em;
 }
 
+.nav-item, .dropdown-item {
+    border-color: grey !important;
+    border-top-style: solid !important;
+    border-width: 1px !important;
+}
+
+.support-link {
+    border-color: transparent;
+}
+
+.contact-link {
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
 .dropdown-menu {
-    background-color: tomato !important;
+    background-color: black !important;
     border-radius: 0 !important;
 }
 
@@ -21,25 +41,13 @@
     letter-spacing: 0.06em;
 }
 
+.nav-item a:hover {
+    color: tomato !important;
+    border-color: white !important;
+}
+
 .dropdown-item:hover {
-    background-color: #d13018 !important;
-}
-
-.navbar .navbar-nav .nav-item {
-    position: relative;
-}
-
-.navbar .navbar-nav .nav-item::after {
-    position: absolute;
-    bottom: 0;
-    background-color: tomato;
-    width: 0%;
-    content: "";
-    height: 4px;
-}
-
-.navbar .navbar-nav .nav-item:hover::after {
-    width: 100%;
+    background-color: transparent !important;
 }
 
 .p-comment {
@@ -122,6 +130,55 @@
 }
 
 @media (min-width: 992px) {
+    #navbar-logo-wrapper #navbarNavDropdown {
+        order: 2;
+    }
+
+    #navbar-logo-wrapper #drupal-logo {
+        order: 1;
+    }
+
+    .navbar, .navbar-nav {
+        background-color: transparent;
+    }
+
+    .nav-item, .dropdown-item {
+        border-width: 0 !important;
+    }
+    
+    .contact-link {
+        border-width: 0;
+    }
+
+    .dropdown-menu {
+        background-color: tomato !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: #d13018 !important;
+    }
+    
+    .navbar .navbar-nav .nav-item {
+        position: relative;
+    }
+    
+    .navbar .navbar-nav .nav-item::after {
+        position: absolute;
+        bottom: 0;
+        background-color: tomato;
+        width: 0%;
+        content: "";
+        height: 4px;
+    }
+    
+    .navbar .navbar-nav .nav-item:hover::after {
+        width: 100%;
+    }
+
+    .nav-item a:hover {
+        color: white !important;
+    }
+    
     .carousel-control-next {
         right: 8% !important;
         top: 0 !important;
