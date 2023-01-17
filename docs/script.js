@@ -41,3 +41,44 @@ function init() {
 }
 
 init(); 
+
+$(document).ready(function(){
+	$('.slider-1').slick({
+		arrows:false,
+		infinite: true,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		pauseOnFocus: true,
+		autoplaySpeed:2500,
+		speed: 1500,
+		responsive: [{
+			breakpoint: 900,
+			settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			centerMode: false,
+			variableWidth: true,
+			}
+		}],
+	});
+	$('.slider-2').slick({
+		arrows:false,
+		infinite: true,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		pauseOnFocus: true,
+		autoplaySpeed:2500,
+		speed: 1500,
+		responsive: [{
+			breakpoint: 900,
+			settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			centerMode: false,
+			variableWidth: true,
+			}
+		}],
+	 });
+});
