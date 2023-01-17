@@ -336,5 +336,7 @@
     .expertise-img {
         z-index: 10;
         margin-top: -350px;
+        width:650px;
+        height:600px;
     }
 }
