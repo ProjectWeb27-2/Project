@@ -47,11 +47,12 @@ $(document).ready(function(){
 		arrows:false,
 		infinite: true,
 		slidesToShow: 5,
-		slidesToScroll: 1,
+		slidesToScroll:0.5,
 		autoplay: true,
 		pauseOnFocus: true,
 		autoplaySpeed:2500,
 		speed: 1500,
+		centerMode: true,
 		responsive: [{
 			breakpoint: 900,
 			settings: {
@@ -65,9 +66,10 @@ $(document).ready(function(){
 	$('.slider-2').slick({
 		arrows:false,
 		infinite: true,
-		slidesToShow: 5,
+		slidesToShow: 6,
 		slidesToScroll: 1,
 		autoplay: true,
+		centerMode: false,
 		pauseOnFocus: true,
 		autoplaySpeed:2500,
 		speed: 1500,
