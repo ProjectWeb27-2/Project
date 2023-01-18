@@ -233,7 +233,7 @@
         left: 0;
         bottom: 0;
         background-color: #333;
-        z-index: 15;
+        z-index: 3;
     }
 }
 
@@ -306,12 +306,12 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 5;
+    z-index: 2;
 }
 .support-row{
     margin-bottom: -212px;
     position: relative;
-    z-index: 20;
+    z-index: 1;
 }
 .expertise{
     position: relative;
@@ -675,7 +675,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1;
     padding: 35px 40px;
     font-size: 25px;
     font-weight: bold;
@@ -701,7 +701,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1;
     padding: 35px 40px;
     font-size: 18px;
     color:rgb(255, 255, 255);
@@ -727,7 +727,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1;
     padding: 35px 40px;
     font-size: 18px;
 }
