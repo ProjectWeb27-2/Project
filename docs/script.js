@@ -84,3 +84,20 @@ $(document).ready(function(){
 		}],
 	 });
 });
+
+
+
+
+
+$(document).ready(function() {
+    $(".accordion h3:first").addClass("active");
+    $(".accordion .panel-body:not(:first)").hide();
+    $(".accordion h3").click(function () {
+      $(this).next(".panel-body").slideToggle("slow")
+        .siblings(".panel-body:visible").slideUp("slow");
+      $(this).toggleClass("active");
+      $(this).siblings("h3").removeClass("active");
+    });
+   
+       
+   }); 
