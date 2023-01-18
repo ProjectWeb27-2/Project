@@ -243,14 +243,6 @@
     margin: 0 0 20px;
     line-height: 1.1;
 }
-.competency-row .col-md-6
-{
-    width: 50%;
-}
-.competency-row .col-xl-3
-{
-    width: 50%;
-}
 .info{
     margin-bottom: 30px;
 }
@@ -391,6 +383,12 @@
         width: 720px;
         margin: auto;
         text-align: center;
+    }
+}
+@media(max-width:700px){
+.competency-row .col-md-6
+    {
+    width: 50%;
     }
 }
 
