@@ -450,7 +450,7 @@
 }
 .tariff .btn-tarif
 {   
-    background-color: #fff;
+    background-color: #fff;;
     display: block;
     border-radius: 5px;
     color: #f54125;
@@ -612,7 +612,7 @@
     float: left;
     margin-bottom: 20px;
     overflow: hidden;
-    cursor: pointer;
+    cursor: pointer
 }
 .picth1 {
     border-radius: 5px;
@@ -643,7 +643,7 @@
     float: left;
     margin-bottom: 20px;
     overflow: hidden;
-    cursor: pointer;
+    cursor: pointer
 }
 .container_pitch2 {
     border-radius: 5px;
@@ -669,7 +669,7 @@
     float: left;
     margin-bottom: 20px;
     overflow: hidden;
-    cursor: pointer;
+    cursor: pointer
 }
 .container_pitch3 {
     border-radius: 5px;
@@ -695,7 +695,7 @@
     float: left;
     margin-bottom: 20px; 
     overflow: hidden;
-    cursor: pointer;
+    cursor: pointer
 }
 .container_pitch4 {
     border-radius: 5px;
@@ -722,7 +722,7 @@
     margin-bottom: 20px;
   
     overflow: hidden;
-    cursor: pointer;
+    cursor: pointer
 }
 .picth5 {
     border-radius: 5px;
@@ -782,6 +782,8 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+
 @media (max-width: 767px)
 {
     .img-invent{
@@ -792,7 +794,7 @@
     .inform-inventor {
         width: 200px;
         max-width: 100%;
-        margin:auto;
+        margin:auto
     }
     .hour
     {
@@ -811,6 +813,11 @@
     {
         font-size: 32px;
     }
+    .FAQ_header
+    {
+        font-size:32px;
+        margin-bottom: 10px;
+    }
     .team-head
     {
         font-size:32px;
@@ -818,11 +825,6 @@
     .case-header
     {
         font-size: 32px;
-    }
-     .FAQ_header
-    {
-        font-size:32px;
-        margin-bottom: 10px;
     }
 }
 
