@@ -247,6 +247,10 @@
 {
     width: 50%;
 }
+.competency-row .col-xl-3
+{
+    width: 25%;
+}
 .info{
     margin-bottom: 30px;
 }
