@@ -801,7 +801,7 @@
 }
 
 
-@media (max-width: 767px)
+@media (max-width: 1200px)
 {
     .img-invent{
         text-align: center;
@@ -818,6 +818,9 @@
         text-align: center;
         font-size: 30px;
     }
+
+@media (max-width: 767px)
+{
     .inform-inventor br
     {
         display: none;
