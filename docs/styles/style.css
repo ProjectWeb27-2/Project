@@ -8,6 +8,10 @@
     line-height: 10px;
     letter-spacing: 0.06em;
 }
+.navbar
+{
+    color: black;
+}
 
 .nav-item, .dropdown-item {
     border-color: grey !important;
@@ -221,7 +225,7 @@
         height: 615px;
     }
 }
-@media (max-width: 988px)
+@media (max-width: 512px)
 {
     #navbar-logo-wrapper {
         position: fixed;
