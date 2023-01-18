@@ -1,11 +1,13 @@
 @media (max-width: 988px)
-#navbar-logo-wrapper {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: #333;
-    z-index: 15;
+{
+    #navbar-logo-wrapper {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: #333;
+        z-index: 15;
+    }
 }
 :root {
     --bs-body-font-family: 'Montserrat', sans-serif !important;
