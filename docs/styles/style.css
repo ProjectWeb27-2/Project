@@ -225,7 +225,7 @@
         height: 615px;
     }
 }
-@media (max-width: 512px)
+@media (max-width: 900px)
 {
     #navbar-logo-wrapper {
         position: fixed;
