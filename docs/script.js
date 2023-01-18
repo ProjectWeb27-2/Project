@@ -91,8 +91,3 @@ $(document).ready(function(){
 		}],
 	 });
 });
-
-   $('.collapse ').click(function (event) {
-        $('.header__menu').toggleClass('show');
-    });
-});
