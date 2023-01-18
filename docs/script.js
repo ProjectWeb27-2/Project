@@ -91,3 +91,76 @@ $(document).ready(function(){
 		}],
 	 });
 });
+
+const formEl = document.querySelector('.form');
+
+formEl.addEventListener('submit', event => {
+    document.getElementById("myButton").disabled = true;
+    event.preventDefault();
+
+    const formData = new FormData(formEl);
+    const data = new URLSearchParams(formData);
+
+    fetch('https://formcarry.com/s/qSlSUC8xf', {
+        method: 'POST',
+        body: data
+    }).then((res) => {
+        if ((res.status >= 200 && res.status < 300) || res.status == 406) {
+            alert('Запрос успешно отправлен!');
+        } else {
+            alert('Ошибка! Попробуйте отправить форму ещё раз. Мы уже работаем над этой проблемой.');
+        }
+    });
+    document.getElementById("myButton").disabled = false;
+    localStorage.clear();
+    inpName.value = null;
+
+    inpPhone.value = null;
+
+    inpEmail.value = null;
+
+    inpMessage.value = null;
+});
+
+
+const inpName = document.getElementById("inpName");
+
+inpName.addEventListener('change', function () {
+    const name = inpName.value;
+    localStorage.setItem("Name", name);
+    console.log(name);
+});
+
+const inpPhone = document.getElementById("inpPhone");
+
+inpPhone.addEventListener('change', function () {
+    const phone = inpPhone.value;
+    localStorage.setItem("Phone", phone);
+    console.log(phone);
+});
+
+const inpEmail = document.getElementById("inpEmail");
+
+inpEmail.addEventListener('change', function () {
+    const email = inpEmail.value;
+    localStorage.setItem("Email", email);
+    console.log(email);
+});
+
+const inpMessage = document.getElementById("inpMessage");
+
+inpMessage.addEventListener('change', function () {
+    const message = inpMessage.value;
+    localStorage.setItem("Message", message);
+    console.log(message);
+});
+
+if (localStorage.length > 0) {
+    inpName.value = localStorage.getItem("Name");
+
+    inpPhone.value = localStorage.getItem("Phone");
+
+    inpEmail.value = localStorage.getItem("Email");
+
+    inpMessage.value = localStorage.getItem("Message");
+}
