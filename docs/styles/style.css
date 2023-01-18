@@ -1,11 +1,6 @@
 :root {
     --bs-body-font-family: 'Montserrat', sans-serif !important;
 }
-
-.navbar {
-    background-color: black;
-}
-
 .navbar-nav {
     background-color: black;
     font-family: 'Ubuntu', sans-serif;
