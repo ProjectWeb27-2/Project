@@ -385,6 +385,9 @@
         text-align: center;
     }
 }
+.col-xs-6{
+    width: 50% !important;
+}
 
 
 
