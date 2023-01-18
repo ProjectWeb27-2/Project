@@ -748,7 +748,7 @@
     opacity: .5;
     font-size: 15px;
 }
-.active {
+ .accordion .active {
     color: #f54125;
   }
    .accordion {
