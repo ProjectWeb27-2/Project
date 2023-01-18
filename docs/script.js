@@ -91,4 +91,9 @@ $(document).ready(function(){
 		}],
 	 });
 });
+$(".navbar").hide();
+$(".navbar li:has('.submenu')").hover(
+  function(){
+  $(".navbar li ul").stop().fadeToggle(300);}
+);
 
