@@ -385,7 +385,7 @@
         text-align: center;
     }
 }
-@media(max-width:700px){
+@media(max-width:900px){
 .competency-row .col-md-6
     {
     width: 50%;
